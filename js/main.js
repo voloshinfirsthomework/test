@@ -1,5 +1,5 @@
 $.ajax({
-  url:'http://freegeoip.net/json/',
+  url:'https://freegeoip.net/json/',
   type:'get',
   dataType:'json'
 }).done(function(data) {
