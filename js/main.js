@@ -1,5 +1,7 @@
-function foobar(data) {
-  console.log(data)
+$.ajax({
+  url:'http://freegeoip.net/json/',
+  type:'get',
+  dataType:'json'
+}).done(function(data) {
   alert(data.ip);
-};
-foobar(data);
+});
